@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+}
+
+.funcoesjs {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+    width: fit-content;
+    
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.subtitulo {
+    font-size: 18px;
+    margin-top: 10px;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+#palavra {
+    color: #ff5722;
+    font-weight: bold;
+    border-right: 2px solid white;
+    padding-right: 5px;
+    padding-top: 10px;
+    display: inline-block;
+    white-space: nowrap; /*sem quebra de linha*/
+    overflow: hidden;
+    animation: pisca 0.8s infinite;
+    position: relative;
+
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes pisca {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+.titprincipal{
+    font-weight: bold;
+    color: #ff6600;
+    font-size:50px;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+}
+span{
+    color: #ff6600;
+}
+.subtit{
+    font-size: 20px;
+    position:relative ; 
+    bottom: 20%;
+    font-weight: bold;
+    text-align: justify;
+}
+.textocrud{
+    position: fixed;
+    top:20%;
+    left: 0%;
+    
+}
+.titulojsp{
+    font-weight: bold;
+    color: #ff6600;
+    font-size:50px;
+    position: relative;
+    top: 0%;
+    right: 38%;
+}
+.textojsp{
+    position: fixed;
+    bottom: 10%;
+    left: 0%;
+}
+.subtitjsp{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+}

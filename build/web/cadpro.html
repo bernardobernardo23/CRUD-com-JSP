@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cadpro.css">
+</head>
+
+
+<body>
+    <div class="containerbody">
+        <form method="post" action="salvar_produtos.jsp">
+            <p>
+                <label for="codigo">CÓDIGO:</label>
+                <input type="number" name="codigo" id="codigo">
+            </p>
+            <p>
+                <label for="nome">NOME:</label>
+                <input type="text" name="nome" id="nome" size="50" width="20">
+            </p>
+            <p>
+                <label for="marca">MARCA:</label>
+                <input type="text" name="marca" id="marca">
+            </p>
+            <p>
+                <label for="preco">PRECO:</label>
+                <input type="number" name="preco" id="preco"> <!-- step : exemplo 4 ou 4,50 ou 5,00 -->
+            </p>
+
+            <p>
+                <input type="submit" value="SALVAR">
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
