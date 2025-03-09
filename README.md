@@ -9,3 +9,6 @@ create table produto(
     marca varchar(50) null,
     preco double
  );
+
+Desenvolvido com a playlist do professor evandro teruel https://www.youtube.com/watch?v=whSimU8GfhY&list=PLmhTO6CBiifNKl7EUfJbpnqLD3ydLCoAg
+
